@@ -62,6 +62,7 @@ p {
 }
 a {
   text-decoration: none;
+  color: var(--text-color);
 }
 /* -------------------------  UNIVERSAL END -----------------------  */
 
@@ -336,7 +337,7 @@ button:hover {
 
 #Service{
   height: 100vh;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 
 }
 .service-title{
@@ -393,8 +394,94 @@ button:hover {
 }
 
 /* PROJECT SECTION */
+#Project {
+  height: 100vh;
+  padding-top: 75px;
+}
 
 .project-title{
   text-align: center;
   font-size: var(--h1-font-size);
+}
+.projects{
+  display: flex;
+  /* margin: 0% 0% 0% 15%; */
+  justify-content: center;
+
+}
+.project-style{
+  margin-top: 3rem;
+  display: flex;
+  row-gap: 1rem;
+  column-gap: 2rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
+  max-width: 1070px;
+}
+.project-box{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1rem;
+  width: 240px;
+  padding: .5rem;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 0px 4px; 
+  transition: 0.2s ease-in-out;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: #ffffff;
+ text-align: center;
+}
+.project-box:hover {
+  transform: translateY(-0.135rem);
+}
+.project-box a{
+  background-color: rgb(239, 239, 239);
+  padding: 5px;
+  border-radius: 5px;
+}
+
+
+.project-box a {
+  margin-top: auto; /* Push the link to the bottom if content grows */
+  text-decoration: none;
+  color: #007bff; /* Customize link color */
+  font-weight: bold;
+  transition: color 0.2s ease-in-out;
+}
+
+.project-box a:hover {
+  color: #0056b3; /* Darker shade on hover */
+}
+
+
+
+
+
+/* showing toast nortification to mobile user */
+#toast {
+  visibility: hidden; /* Hidden by default */
+  min-width: 250px;
+  margin: 0 auto;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  border-radius: 5px;
+  padding: 16px;
+  position: fixed;
+  z-index: 1;
+  left: 50%;
+  /* bottom: 10px; */
+  top: 10%;
+  transform: translateX(-60%);
+  font-size: 16px;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+#toast.show {
+  visibility: visible; /* Show the toast */
+  opacity: 1;
 }
