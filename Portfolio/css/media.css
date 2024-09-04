@@ -1,0 +1,155 @@
+@media (max-width: 600px) {
+  button {
+    width: 100%;
+  }
+  /* --------------navbar start----------------------- */
+  .navbar {
+    padding: 2% 10%;
+  }
+  .rightbarLinks {
+    display: none;
+    /* display: flex; */
+    flex-direction: column;
+    align-items: self-start;
+    gap: 0vmin;
+    padding: 4% 8%;
+    position: absolute;
+    top: 54px;
+    left: 0vmin;
+    width: 100vw;
+    background-color: #464646;
+  }
+  .rightbarLinks a:after {
+    display: none;
+  }
+  .rightbar-links {
+    padding: 10px;
+    width: 100%;
+  }
+  .rightbar-links:hover {
+    width: 80vw;
+    background: #262626;
+  }
+  #bar {
+    display: block;
+  }
+  .navbar-social-icons {
+    margin-top: 3vw;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  .navbar-social-icons a {
+    transition: 0.5s;
+  }
+  .navbar-social-icons a:hover {
+    background: #464646;
+    padding: 0;
+    color: #ff004f;
+    transform: translateY(-5px);
+  }
+  /* -----------------------navbar end----------------------------- */
+  /* -----------------------home section start------------------------ */
+  .links {
+    display: none;
+  }
+  .leftPart1 {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 10%;
+    justify-content: center;
+    align-items: center;
+  }
+  .section1 {
+    padding-top: 20vmin;
+  }
+  .scrollBar button {
+    position: static;
+  }
+  /* ----------------------------hero section end----------------------------- */
+  /* ------------------------about section start------------------------------- */
+  .aboutMe {
+    margin-top: 8vmin;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 80px;
+    padding: 0px;
+  }
+  .aboutMeText {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  }
+  .aboutMeImg img {
+    height: 60vw;
+    width: 60vw;
+    border-radius: 10px;
+  }
+  /* -------------------------about section end-------------------------- */
+  /* --------------------------skill section start------------------------ */
+  .skillSection {
+    margin-top: 8vmin;
+    padding-top: 15vmin;
+    /* height: 100vh; */
+    text-align: center;
+  }
+  .skillLogo {
+    margin-top: 8vmin;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: space-between;
+  }
+  .skillLogo div {
+    gap: 10px;
+    width: 45%;
+    height: 15vmin;
+  }
+  /* ------------------------------SKILL SECTION END---------------------------- */
+  /* ------------------------------SERVICE SECTION START------------------------ */
+  .serviceSection {
+    margin-top: 8vmin;
+  }
+  .service-box {
+    flex-wrap: wrap;
+  }
+  .design {
+    height: 90vmin;
+    width: 100%;
+    gap: 20px;
+    padding: 35px;
+  }
+  /* -----------------------------SERVICE SECTION END---------------------------- */
+  /* -----------------------------CONTACT SECTION START------------------------- */
+  form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .contact-flex {
+    margin-top: 20vw;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-around;
+    gap: 20vw;
+  }
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+  }
+  .contact-details {
+    align-items: center;
+    gap: 7vmin;
+  }
+  /* ---------------------------CONTACT SECTION END----------------------------- */
+  /* -----------------------------FOOTER START------------------------- */
+  footer {
+    margin-top: 20px;
+    border-top: 1px solid gray;
+    width: 100%;
+    padding: 2em 1em;
+    text-align: center;
+  }
+}

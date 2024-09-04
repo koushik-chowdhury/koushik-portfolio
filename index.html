@@ -3,303 +3,275 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="./portfolio/style.css" />
-    <link rel="stylesheet" href="./portfolio/media.css" />
+    <title>Portfolio-Koushik Chowdhury</title>
+    <link rel="stylesheet" href="./Portfolio/css/style.css" />
+    <link rel="stylesheet" href="./Portfolio/css/media.css" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
       rel="stylesheet"
     />
     <script
-      src="https://kit.fontawesome.com/47435710d5.js"
+      src="https://kit.fontawesome.com/6519a7b2db.js"
       crossorigin="anonymous"
     ></script>
   </head>
-  <!---------- BODY ---------->
-
   <body>
-    <!-- NAVIGATION BAR -->
-
-    <header class="scroll">
+    <!--------------------------------- HEADER SATRT ---------------------------------->
+    <header>
       <div class="navbar">
-        <div class="leftbar">
-          <p>Koushik</p>
-        </div>
+        <div class="leftbar"><p id="name"><span id="initial">K</span>oushik.</p></div>
         <div class="rightbar">
-          <a href="#hero">Home</a>
-          <a href="#About">About</a>
-          <a href="#Skill">Skills</a>
-          <a href="#Service">Service</a>
-          <a href="#Project">Project</a>
-          <a href="#">Contact Me</a>
+          <div class="rightbarLinks">
+            <a class="rightbar-links" href="#home">Home</a>
+            <a class="rightbar-links" href="#about">About</a>
+            <a class="rightbar-links" href="#skills">Skills</a>
+            <a class="rightbar-links" href="#service">Service</a>
+            <a class="rightbar-links" href="#portfolio">Portfolio</a>
+            <a class="rightbar-links" href="#contact">Contact Me</a>
+            <div class="navbar-social-icons">
+                <a href="https://www.linkedin.com/in/debajit-das-537763219/"target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://github.com/debajit-das" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="https://twitter.com/Debajit018" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="https://www.facebook.com/people/Debajit-Das/100024908393863/?mibextid=ZbWKwL" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://instagram.com/debajit_das_" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+          </div>
+            <div id="bar">
+              <i class="fa-solid fa-bars"></i>
+            </div>
         </div>
-        <div class="navigation dark">
-          <a href="">
-            <i class="fa-solid moon fa-moon"></i>
-          </a>
-          <a href="">
-            <i class="fa-solid fa-bars bar"></i>
-          </a>
-        </div>
+        
       </div>
     </header>
-    <!---------- END NAVIGATION  ---------->
-
-    <!---------- MAIN SECTION  ---------->
-
+    <!--------------------------- HEADER ENDS---------------------------------- -->
     <main>
-      <!---------- Hero Section ---------->
-      <section id="hero">
-        <div class="hero">
-          <div class="social">
-            <a
-              href="https://www.linkedin.com/in/koushik-chowdhury/"
-              target="_blank"
-            >
-              <i class="fa-brands fa-linkedin-in"></i>
-            </a>
-            <a href="https://github.com/koushik-chowdhury" target="_blank">
-              <i class="fa-brands fa-github"></i>
-            </a>
-            <a href="https://twitter.com/csakoushik" target="_blank">
-              <i class="fa-brands fa-x-twitter"></i>
-            </a>
-          </div>
-          <div class="intro">
-            <h1>Hi I'm Koushik</h1>
-            <h3>FullStack Developer</h3>
-            <p>
-              High level experience in web design and development knowledge,
-              producing quality work.
-            </p>
-            <button>
-              Contact Me <i class="fa-regular fa-paper-plane"></i>
-            </button>
-          </div>
-          <div class="profile">
-            <img src="./portfolio/image/profile image.png" alt="Boy" />
+      <!-- ----------------------HOME SECITION START -------------------------- -->
+
+      <section class="section1" id="home">
+        <div class="heroSection">
+          <div class="leftPart1">
+            <div class="links">
+                <a href="https://www.linkedin.com/in/koushik-chowdhury/"target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://github.com/koushik-chowdhury" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="https://twitter.com/csakoushik" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+            </div>
+            <div class="leftPart1About">
+              <h1 class="name">Hi, I'm Koushik</h1>
+              <p class="nameAbout"><b>Fullstack Developer</b></p>
+              <p class="details">
+                High level experience in web design and development knowledge,
+                producing quality work.
+              </p>
+              <a href="#contact">
+                <button class="contact">
+                  Contact Me <i class="fa-regular fa-paper-plane"></i>
+                </button>
+              </a>
+            </div>
+            <div class="rightPart1">
+              <img src="./Portfolio/asset/image/profileImage-1.png" alt="" />
+            </div>
           </div>
         </div>
-        <div class="scroll-down">
-          <a href="#About">
+        <div class="scrollBar">
+          <a href="#about">
+          <button class="scrollBtn">
             <i class="fa-solid fa-computer-mouse"></i>
-            <span class="scroll-text">Scroll Down</span>
-            <i class="fa-solid fa-angle-down"></i>
-          </a>
+            <span class="scrollDown">Scroll Down</span>
+            <i class="fa-solid fa-arrow-down"></i>
+          </button>
+        </a>
         </div>
       </section>
 
-      <!---------- End Hero Section ---------->
+      <!-- ---------------------home section end------------------------- -->
 
-      <!----------- ABOUT SECTION ------------>
-      <section id="About">
-        <div class="about">
-          <h1>About Me</h1>
-          <p>My Introduction</p>
-        </div>
-        <div class="about-details">
-          <div class="photo">
-            <img src="./portfolio/image/koushik image.jpg" alt="koushik" />
-          </div>
-          <div class="info">
+      <!------------------------about section start---------------------  -->
+      <section class="section2" id="about">
+        <h1>About Me</h1>
+        <br />
+        <p>My Introduction</p>
+        <div class="aboutMe">
+          <div class="aboutMeImg"><img src="./Portfolio/asset/image/about.jpg" alt="" /></div>
+          <div class="aboutMeText">
             <p>
               Web developer, with extensive knowledge and years of experience,
               working in web technologies and Ui / Ux design, delivering quality
               work.
             </p>
-            <div class="meta-info">
-              <div class="meta-span">
-                <spna class="info-num">1+</spna>
-                <span class="info-des">Years of experience</span>
+            <div class="status">
+              <div class="status1">
+                <p><h2>01+</h2>Years
+                  experience</p>
               </div>
-              <div class="meta-span">
-                <spna class="info-num">5+</spna>
-                <span class="info-des">Personal Project Completed</span>
+              <div class="status2">
+                <p><h2>3+</h2>Completed
+                  project</p>
               </div>
-              <div class="meta-span">
-                <spna class="info-num">0</spna>
-                <span class="info-des">Companies Worked</span>
+              <div class="status3">
+                <p><h2>00+</h2>Companies
+                  worked</p>
               </div>
             </div>
-            <div class>
-              <a href="./portfolio/cv.pdf" download="">
-                <button>
-                  Download CV <i class="fa-regular fa-circle-down"></i></button
-              ></a>
-            </div>
+            <div class="cv">
+              <a href="./Portfolio/asset/document/Resume.pdf" download>
+                <button class="cvBtn">Download CV <i class="fa-regular fa-circle-down"></i></button>
+              </a>
           </div>
-        </div>
-      </section>
-      <!--------------------------------------- ABOUT SECTION END ---------------------------- -->
-
-      <!-- ------------------------------------ SKILL START ---------------------------------- -->
-
-      <section id="Skill">
-        <div class="skill-title">
-          <h1>Skill</h1>
-          <p>My Skill Level</p>
-        </div>
-        <div class="skill-set">
-          <div class="myskill">
-            <div class="skill">
-              <img src="./portfolio/assets/html.svg" alt="" />
-              <h3>HTML</h3>
-            </div>
-            <div class="skill">
-              <img src="./portfolio/assets/css.svg" alt="" />
-              <h3>CSS</h3>
-            </div>
-            <div class="skill">
-              <img src="./portfolio/assets/tailwind.svg" alt="" />
-              <h3>TAILWIND</h3>
-            </div>
-            <div class="skill">
-              <img src="./portfolio/assets/javascript.svg" alt="" />
-              <h3>JAVASCRIPT</h3>
-            </div>
-            <div class="skill">
-              <img src="./portfolio/assets/react.svg" alt="" />
-              <h3>REACT JS</h3>
-            </div>
-            <div class="skill">
-              <img src="./portfolio/assets/node.svg" alt="" />
-              <h3>NODE JS</h3>
-            </div>
-            <div class="skill">
-              <img src="./portfolio/assets/next.svg" alt="" />
-              <h3>NEXT JS</h3>
-            </div>
-            <div class="skill">
-              <img src="./portfolio/assets/python.svg" alt="" />
-              <h3>PYTHON</h3>
-            </div>
-            <div class="skill">
-              <img src="./portfolio/assets/mysql.svg" alt="" />
-              <h3>MYSQL</h3>
-            </div>
-            <div class="skill">
-              <img src="./portfolio/assets/mongo.svg" alt="" />
-              <h3>MONGO DB</h3>
-            </div>
-            <div class="skill">
-              <img src="./portfolio/assets/c.svg" alt="" />
-              <h3>C</h3>
-            </div>
-            <div class="skill">
-              <img src="./portfolio/assets/cpp.svg" alt="" />
-              <h3>C++</h3>
-            </div>
-            <div class="skill">
-              <img src="./portfolio/assets/php.svg" alt="" />
-              <h3>PHP</h3>
-            </div>
-            <div class="skill">
-              <img src="./portfolio/assets/amazone.svg" alt="" />
-              <h3>AWS</h3>
-            </div>
-            <div class="skill">
-              <img src="./portfolio/assets/git.svg" alt="" />
-              <h3>GIT</h3>
-            </div>
-            <div class="skill">
-              <img src="./portfolio/assets/graphql.svg" alt="" />
-              <h3>GRAPHQL</h3>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section id="Service">
-        <div class="service-title">
-          <h1>Service</h1>
-          <p>What we Offer</p>
-        </div>
-        <div class="service-offer">
-          <div class="our-service">
-            <a href=""><i class="fa-brands fa-uikit"></i></a>
-            <h3>
-              UI/UX <br />
-              Design
-            </h3>
-            <a class="view-more"
-              >View More <i class="fa-solid fa-arrow-right"></i
-            ></a>
-          </div>
-          <div class="our-service">
-            <a href=""><i class="fa-solid fa-code"></i></a>
-            <h3>
-              Frontend <br />
-              Developer
-            </h3>
-            <a class="view-more"
-              >View More <i class="fa-solid fa-arrow-right"></i
-            ></a>
-          </div>
-          <div class="our-service">
-            <a href=""><i class="fa-solid fa-pen"></i></a>
-            <h3>
-              Branding <br />
-              Designer
-            </h3>
-            <a class="view-more"
-              >View More <i class="fa-solid fa-arrow-right"></i
-            ></a>
-          </div>
-        </div>
-      </section>
-      <!-- BOTTOM TO TOP -->
-      <div class="bottom-to-top">
-        <a href="#hero"><i class="fa-solid fa-arrow-up"></i></a>
-      </div>
-
-      <!-- --------------------PROJECT SECTION------------------------------ -->
-      <section id="Project">
-        <div class="project-title">
-          <h1>My Project</h1>
-        </div>
-        <div class="projects">
-          <div class="project-style">
-            <div class="project-box">
-              <h4>Image Type Converter</h4>
-              <p>Convert Any image format and also Support Multiple image.</p>
-              <a href="https://chromewebstore.google.com/detail/image-type-converter/loikfmlknpbhelmocllljmbkafpjjpdf" target="_blank">Click Here</a>
-            </div>
-            <div class="project-box">
-              <h4>Check Your Streak</h4>
-              <p>Just put your username and check your streak</p>
-              <a href="./GitHub Streack Check/" target="_blank">Click Here</a>
-            </div>
-            <div class="project-box">
-              <h4>Cricket Score</h4>
-              <p>Accurately tracks runs, wickets, and overs, simulating the experience of a real cricket match.</p>
-              <a href="./cricket-run/" target="_blank">Click Here</a>
-            </div>
           </div>
         </div>
       </section>
 
-      <!-- CONTACT SECTION -->
+      <!-- ---------------------about section end--------------------------->
 
-      <!-- <section id="Contact">
-        <div class="contact-head">
-          <h1>My Projects</h1>
-          <p>Get in touch</p>
-        </div>
-        <form action="">
-          <div class="contact">
-            <div class="contact-details">
-              <div class="details">
-                <h3>Call Me</h3>
-                <p>+91 8016612251</p>
-              </div>
-              <div class="details"></div>
-              <div class="details"></div>
-            </div>
-            <div class="contact-form"></div>
+      <!-- ---------------------Skill section start----------------------- -->
+      <section class="skillSection" id="skills">
+        <h1>Skills</h1>
+        <br><p>Technical Skills</p><br>
+        <div class="skillLogo">
+          <div class="logo">
+            <img src="./Portfolio/asset/skill-img/html5.svg" alt="">
+            <p class="skillText">HTML</p>
           </div>
-        </form>
-      </section> -->
-      <div id="toast">For a better experience, please open this site on a laptop or computer.</div>
+          <div class="logo">
+            <img src="./Portfolio/asset/skill-img/css3.svg" alt="">
+            <p class="skillText">CSS</p>
+          </div>
+          <div class="logo">
+            <img src="./Portfolio/asset/skill-img/javascript.svg" alt="">
+            <p class="skillText">javaScript</p>
+          </div>
+          <div class="logo">
+            <img src="./Portfolio/asset/skill-img/react.svg" alt="">
+            <p class="skillText">React JS</p>
+          </div>
+          <div class="logo">
+            <img src="./Portfolio/asset/skill-img/tailwind.svg" alt="">
+            <p class="skillText">Tailwind</p>
+          </div>
+          <div class="logo">
+            <img src="./Portfolio/asset/skill-img/nodejs.svg" alt="">
+            <p class="skillText">Node JS</p>
+          </div>
+          <div class="logo">
+            <img src="./Portfolio/asset/skill-img/next js.svg" alt="">
+            <p class="skillText">Next JS</p>
+          </div>
+          <div class="logo">
+            <img src="./Portfolio/asset/skill-img/mongo.svg" alt="">
+            <p class="skillText">Mongo</p>
+          </div>
+          <div class="logo">
+            <img src="./Portfolio/asset/skill-img/python.svg" alt="">
+            <p class="skillText">Python</p>
+          </div>
+          
+          <div class="logo">
+            <img src="./Portfolio/asset/skill-img/php.svg" alt="">
+            <p class="skillText">PHP</p>
+          </div>
+          <div class="logo">
+            <img src="./Portfolio/asset/skill-img/git.svg" alt="">
+            <p class="skillText">Git</p>
+          </div>
+          <div class="logo">
+            <img src="./Portfolio/asset/skill-img/mysql.svg" alt="">
+            <p class="skillText">My Sql</p>
+          </div>
+          <div class="logo">
+            <img src="./Portfolio/asset/skill-img/AWS.svg" alt="">
+            <p class="skillText">AWS</p>
+          </div>
+          <div class="logo">
+            <img src="./Portfolio/asset/skill-img/c.svg" alt="">
+            <p class="skillText">C</p>
+          </div>
+          <div class="logo">
+            <img src="./Portfolio/asset/skill-img/c++.svg" alt="">
+            <p class="skillText">C++</p>
+          </div>
+          <div class="logo">
+            <img src="./Portfolio/asset/skill-img/graphql.svg" alt="">
+            <p class="skillText">GRAPHQL</p>
+          </div>
+        </div>
+      </section>
+      <!-- -------------------------------------------SKILL SECTION END-------------------------------------------- -->
+      
+      <!------------------------------------------- SERVICE SECTION START --------------------------------------------->
+      <section class="serviceSection" id="service">
+        <h1>Service</h1>
+        <br>
+        <p>What I offer</p>
+        <div class="service-box">
+          <div class="design">
+            <i class="fas fa-crop-alt"></i>
+            <h2>Ui/Ux Designer</h2>
+            <p>Expert UI/UX design creating user-friendly, visually appealing interfaces to enhance user experience and achieve business goals effectively.</p>
+            <a href="#">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+          <div class="design">
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Developer</h2>
+            <p>Offering professional web development services, creating responsive, user-friendly websites with modern design, seamless functionality, and optimized performance.</p>
+            <a href="#">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+          <div class="design">
+            <i class="fab fa-app-store"></i>
+            <h2>App Design</h2>
+            <p>Crafting intuitive, user-friendly mobile applications with seamless functionality, visually appealing interfaces, and personalized user experiences for all platforms.</p>
+            <a href="#">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+        </div>
+        <button>See All</button>
+      </section>
+      <!-- --------------------------------SERVICE SECTION END------------------------------- -->
+
+      <!-- --------------------------------CONTACT SECTION START-------------------------------------- -->
+      
+      <section class="contactSection" id="contact">
+        <h1>Contact Me</h1>
+        <br>
+        <p>Get in touch</p>
+        <div class="contact-flex">
+          <div class="contact-details">
+            <div class="contact-details-call">
+              <i class="fa-solid fa-phone"></i>
+              <p>+91 8016612251</p>
+            </div>
+            <div class="contact-details-email">
+              <i class="fa-solid fa-envelope"></i>
+              <p>csakoushik@gmail.com</p>
+            </div>
+            <div class="contact-details-location">
+              <i class="fa-solid fa-location-dot"></i>
+              <p>Malda, West Bengal, 732142</p>
+            </div>
+            <div class="social-icons">
+              <a href="https://www.linkedin.com/in/koushik-chowdhury/"target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://github.com/koushik-chowdhury" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="https://twitter.com/csakoushik" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="https://www.facebook.com/koushik.chowdhury.3551" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://instagram.com/csakoushik" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+          </div>
+          <div class="contact-form">
+            <form action="">
+              <input type="text" name="Name" placeholder="Your Name" class="form-width-half" required>
+              <input type="email" name="email" placeholder="Your Email" class="form-width-half" required>
+              <textarea placeholder="Your Message ..." name="message" rows="6" class="form-width-height-full"> </textarea>
+            </form>
+            <button type="submit" class="contact-btn">Submit</button>
+          </div>
+        </div>
+      </section>
+      <!-- --------------------------------------------CONTACT SECTION END-------------------------------------- -->
     </main>
+    <footer>
+      <p>
+        &copy; 2024 <span style="color: #ff004f;">KOUSHIK</span>. All Rights Reserved. Website designed & made by Koushik Chowdhury.
+      </p>
+    </footer>
+    <script src="JS/app.js"></script>
   </body>
-  <script src="./portfolio/script.js"></script>
 </html>

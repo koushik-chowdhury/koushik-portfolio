@@ -1,0 +1,383 @@
+/* -------------------Universal CSS start----------------- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+body {
+  background: #080808;
+  color: white;
+}
+html {
+  scroll-behavior: smooth;
+}
+i {
+  color: #ff004f;
+}
+a {
+  text-decoration: none;
+  color: #ff004f;
+}
+p {
+  color: var(--textColor1);
+}
+h1 {
+  font-size: 2.5rem;
+}
+button {
+  background: transparent;
+  height: 50px;
+  width: 140px;
+  border-radius: 5px;
+  margin-top: 20px;
+  color: white;
+  border: 1px solid #ff004f;
+  transition: 0.5s;
+}
+button:hover {
+  background: #ff004f;
+  cursor: pointer;
+}
+/* -------------------Universal CSS end---------------------- */
+
+/* -------------------------- Navbar Starts -------------------------*/
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: #080808;
+  z-index: 100;
+  box-shadow: 0px -1px 8px gray;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5% 14%;
+}
+#name {
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+}
+#initial {
+  color: #ff004f;
+}
+.rightbarLinks a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  font-weight: 300;
+  position: relative;
+}
+.rightbarLinks a:after {
+  content: "";
+  width: 0;
+  height: 3px;
+  background: #ff004f;
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  transition: 0.2s;
+}
+.rightbarLinks a:hover::after {
+  width: 100%;
+}
+.rightbarLinks {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+.moreIcons {
+  display: flex;
+  gap: 30px;
+}
+#bar {
+  color: #ff004f;
+  display: none;
+}
+.navbar-social-icons {
+  display: none;
+}
+/* ----------------------Navbar ends------------------ */
+
+/*----------------------- Main section start----------------------------- */
+main {
+  padding: 0% 14%;
+}
+/* ------------------------home section start ----------------------- */
+.section1 {
+  padding-top: 25vmin;
+}
+.heroSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.leftPart1 {
+  display: flex;
+  flex-direction: row;
+  gap: 188px;
+}
+.links a {
+  transition: 0.5s ease-in;
+  height: 25px;
+  width: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.links a:hover {
+  transform: scale(1.4);
+}
+.links {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  text-align: center;
+}
+.leftPart1About {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.name {
+  color: white;
+  font-size: 3rem;
+  line-height: 1.4;
+}
+.nameAbout {
+  font-size: 22px;
+}
+.rightPart1 img {
+  height: 280px;
+  width: 280px;
+  background: #ff004f;
+  border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+}
+.contact i {
+  color: white;
+}
+.scrollBar button {
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  position: relative;
+  top: 10vmin;
+  left: 34vmin;
+  color: white;
+  background-color: transparent;
+  transition: 0.2s ease-in;
+}
+.scrollBar button:hover {
+  transform: translateY(0.25rem);
+  color: #ff004f;
+  background-color: transparent;
+}
+
+/* -----------------------home section end------------------------------- */
+
+/* ------------------------about section start------------------------------- */
+.section2 {
+  margin-top: 10vmin;
+  padding-top: 15vmin;
+  text-align: center;
+}
+.aboutMe {
+  margin-top: 10vmin;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 15vmin;
+  padding: 0px 9%;
+}
+.aboutMeImg img {
+  height: 25vw;
+  width: 25vw;
+  border-radius: 10px;
+}
+.aboutMeText {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.aboutMeText p {
+  text-align: justify;
+}
+.status {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+.cvBtn i {
+  color: white;
+}
+/* -----------------------about section end-------------------------- */
+
+/* -----------------------Skill section start----------------------------- */
+.skillSection {
+  margin-top: 10vmin;
+  padding-top: 15vmin;
+  text-align: center;
+}
+.skillLogo {
+  margin-top: 10vmin;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
+}
+.skillLogo div img {
+  height: 40px;
+  width: 40px;
+}
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  width: 23%;
+  height: 10vmin;
+  border-radius: 5px;
+  background: #262626;
+  color: white;
+  font-weight: bolder;
+  transition: 0.3s ease-in;
+}
+.logo:hover {
+  transform: scale(1.05);
+  background: #ff004f;
+  color: white;
+  box-shadow: 0px 1px 8px black;
+}
+/*---------------------------- skill section end--------------------------------------- */
+
+/*--------------------------- SERVICE SECTION START -------------------------------*/
+.serviceSection {
+  padding-top: 15vmin;
+  text-align: center;
+}
+.service-box {
+  margin-top: 10vmin;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  gap: 5vmin;
+}
+.design {
+  height: 24vw;
+  width: 22vw;
+  background: #262626;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: start;
+  padding: 2vw;
+  font-size: 1.15rem;
+  border-radius: 10px;
+  transition: background 0.5s, transform 0.5s;
+}
+.design i {
+  font-size: 2rem;
+}
+.design p {
+  color: white;
+  text-align: start;
+  font-size: 1.1rem;
+  font-weight: 300;
+}
+.design h2 {
+  font-size: 1.4rem;
+}
+.design a {
+  font-size: 1rem;
+}
+.design a i {
+  font-size: 1rem;
+}
+.design:hover {
+  background: #ff004f;
+  transform: translateY(-10px);
+}
+.design:hover a,
+.design:hover i {
+  color: white;
+}
+
+/* -----------------------------SERVICE SECTION END---------------------------- */
+
+/* -----------------------------CONTACT SECTION START------------------------- */
+
+.contactSection {
+  margin-top: 10vmin;
+  padding-top: 15vmin;
+  text-align: center;
+}
+.contact-details {
+  display: flex;
+  flex-direction: column;
+  gap: 2vw;
+}
+.contact-details div {
+  display: flex;
+  gap: 5vmin;
+}
+.contact-flex {
+  margin-top: 15vmin;
+  display: flex;
+  justify-content: space-around;
+}
+.social-icons {
+  display: flex;
+  justify-content: space-between;
+}
+.social-icons i {
+  font-size: 24px;
+  color: #ababab;
+  transition: 0.5s;
+}
+.social-icons i:hover {
+  color: #ff004f;
+  transform: translateY(-5px);
+}
+form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  width: 460px;
+}
+input {
+  outline: none;
+  border: none;
+}
+.contact-form {
+  display: flex;
+  flex-direction: column;
+}
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+}
+form input,
+form textarea {
+  background: #262626;
+  color: #fff;
+  padding: 20px 10px;
+  outline: none;
+  border-radius: 6px;
+}
+/* -----------------------------CONTACT SECTION END------------------------- */
+/* -----------------------------FOOTER START------------------------- */
+footer {
+  margin-top: 20px;
+  border-top: 1px solid gray;
+  width: 100%;
+  padding: 2em 20em;
+  text-align: center;
+}
