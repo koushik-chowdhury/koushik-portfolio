@@ -152,4 +152,39 @@
     padding: 2em 1em;
     text-align: center;
   }
+
 }
+/* -----------------------------PORTFOLIO SECTION STARRT------------------------ */
+
+@media (max-width: 1200px) {
+  .design-project {
+    width: 30vw; /* Adjust card width for medium screens */
+    min-height: 40vw; /* Increase minimum height */
+  }
+}
+
+@media (max-width: 900px) {
+  .project-box {
+    gap: 4vmin; /* Adjust gap for smaller screens */
+  }
+
+  .design-project {
+    width: 45vw; /* Adjust card width for smaller screens */
+    min-height: 50vw; /* Increase minimum height */
+  }
+}
+
+@media (max-width: 600px) {
+  .project-box {
+    gap: 3vmin; /* Further adjust gap for very small screens */
+  }
+
+  .design-project {
+    width: 80vw; /* Make cards wider on very small screens */
+    min-height: 60vw; /* Increase minimum height */
+  }
+}
+
+
+
+/* ------------------------------PORTFOLIO SECTION END-------------------------- */
